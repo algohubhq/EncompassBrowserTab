@@ -1,0 +1,57 @@
+{
+	"PluginSettings": {
+		"SideMenuOpenByDefault": "False",
+		"TestServer": "TEBE11142074",
+		"SuperAdminRun": "False",
+		"Permission": {
+			"AllAccess": [
+				"RunCustomAction",
+				"BrowserTab"
+			]
+		},
+		"Plugins": {
+			"RunCustomAction": {
+				"Permissions": {
+					"Everyone": false,
+					"Personas": [
+						"Super Administrator"
+					],
+					"UserIds": []
+				},
+				"Settings": {}
+			},
+			"BrowserTab": {
+				"Permissions": {
+					"Everyone": false,
+					"Personas": [
+						"Super Administrator"
+					],
+					"UserIds": []
+				},
+				"Settings": {}
+			},
+			"VirtualFields": {
+				"Permissions": {
+					"Everyone": false,
+					"Personas": [
+						"Super Administrator"
+					],
+					"UserIds": []
+				},
+				"Settings": {}
+			}
+		}
+	},
+	"Links": {
+		"Loan Officer": {
+		},
+		"Default": {
+		}
+	},
+	"LoanInformation": {
+		"Loan Officer": {
+		},
+		"Default": {
+		}
+	}
+}
