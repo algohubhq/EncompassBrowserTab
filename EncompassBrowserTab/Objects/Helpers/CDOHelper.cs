@@ -7,7 +7,7 @@ namespace EncompassBrowserTab.Objects.Helpers
 {
     public class CDOHelper
     {
-        private const string Name = "algorun-automator-settings.json";
+        private const string Name = "browsertab-settings.json";
         private static CDO File;
 
         public static CDO CDO => File ?? DownloadCDO();
