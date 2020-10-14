@@ -60,7 +60,7 @@ namespace EncompassBrowserTab.Objects.Dependencies
             }
             catch (Exception ex)
             {
-
+                Logger.HandleError(ex, nameof(DependencyLoader));
             }
 
             if (dependencies.Any(a => a.Name.Contains("CefSharp")))

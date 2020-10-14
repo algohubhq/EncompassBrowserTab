@@ -1,23 +1,8 @@
 ﻿using EncompassBrowserTab.Objects;
-using EncompassBrowserTab.Objects.Helpers;
 using EncompassBrowserTab.Objects.Interface;
-using EncompassBrowserTab.Objects.Models;
-using EllieMae.EMLite.ClientServer;
-using EllieMae.EMLite.ClientServer.Reporting;
-using EllieMae.EMLite.Common;
-using EllieMae.EMLite.MainUI;
-using EllieMae.EMLite.UI.Controls;
 using System;
-using System.Drawing;
-using System.Linq;
-using System.Reflection;
-using System.Text;
 using System.Windows.Forms;
 using CefSharp.WinForms;
-using EncompassBrowserTab.Objects.Extension;
-using CefSharp;
-using EncompassBrowserTab.Objects.Dependencies;
-using System.IO;
 
 namespace EncompassBrowserTab.Non_Native_Modifications.BrowserTab
 {
